@@ -1,0 +1,28 @@
+span {
+  font-size: 48px;
+}
+
+#id1 {
+  color: blue;
+}
+
+.text {
+  color: red;
+}
+
+span {
+  color: green;
+}
+
+.container1 .text {
+  color:sandybrown;
+}
+
+.text2 {
+  color: red;
+}
+
+.container2 .text2 {
+  color:sandybrown;
+}
+
