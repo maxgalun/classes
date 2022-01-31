@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sum-style.css" />
+    </head>
+    <script>
+        function sum(number1, number2) {
+            const sumValue = number1 + number2;
+            return sumValue;
+        }
+
+        function onClick() {
+            const input1 = document.querySelector("#input1");
+            const value1 = Number(input1.value);
+            const input2 = document.querySelector("#input2");
+            const value2 = Number(input2.value);
+            const sumValue = sum(value1, value2);
+
+            const resultSpan = document.querySelector("#result");
+            resultSpan.innerText = sumValue;
+        }
+    </script>
+    <body>
+        <input type="text" class="input" id="input1" />
+        <input type="text" class=input" id="input2" />
+        <button class="button" onClick="onClick();">Sum</button>
+        <button class="button" onClick="onClick();">Sum</button>
+        <span id="result"></span>
+    </body>
+</html>
