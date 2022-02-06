@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <button onclick="load()">load rate</button>
+        <span id="rate"></span>
+        <script>
+            async function load() {
+                const result = await fetch('https://www.nbrb.by/api/exrates/rates/145?ondate=2020-11-20')
+                const rateSpan = document.querySelector('#rate');
+                const data = await result.json();
+                rateSpan.innerText = data.Cur_OfficialRate;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  box-sizing: border-box;
+  width: 600px;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  border: solid 1px red;
+}
+
+.caption {
+  height: 200px;
+  border: solid 1px blue;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  width: 500px;
+  height: 300px;
+  border: solid 1px green;
+}
