@@ -16,11 +16,11 @@
         "image": "4.jpg"
     },
     {
-        title: "Книга 5",
-        image: "3.jpg"
+        "title": "Книга 5",
+        "image": "3.jpg"
     },
     {
-        title: "Книга 6",
-        image: "4.jpg"
+        "title": "Книга 6",
+        "image": "4.jpg"
     }
 ]
