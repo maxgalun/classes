@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Гарри Поттер и философский камень",
+        "image": "https://raw.githubusercontent.com/VitaliyPolyashov/classes/master/shop-data/1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Гордость и предубеждение",
+        "image": "https://raw.githubusercontent.com/VitaliyPolyashov/classes/master/js-custom-data/2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Книга 3",
+        "image": "https://raw.githubusercontent.com/VitaliyPolyashov/classes/master/shop-data/3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Книга 4",
+        "image": "https://raw.githubusercontent.com/VitaliyPolyashov/classes/master/shop-data/4.jpg"
+    },
+]

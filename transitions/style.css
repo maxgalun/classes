@@ -1,0 +1,32 @@
+#block {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 500ms ease-in-out;
+}
+
+#block:hover {
+    width: 1000px;
+}
+
+#block2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    opacity: 0.2;
+    transition: all 1s ease-in-out 1s;
+}
+
+#block2:hover {
+    opacity: 1;
+    box-shadow: 10px 5px 5px black;
+}
+
+#block2.active {
+    opacity: 1;
+    box-shadow: 10px 5px 5px brown;
+}
+
+button:focus {
+    box-shadow: 10px 5px 5px green;
+}
