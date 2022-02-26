@@ -11,12 +11,12 @@
     },
     {
         "id": 3,
-        "title": "Книга 3",
+        "title": "Цветы для Элджернона",
         "image": "https://raw.githubusercontent.com/VitaliyPolyashov/classes/master/shop-data/3.jpg"
     },
     {
         "id": 4,
-        "title": "Книга 4",
+        "title": "Вторая жизнь Уве",
         "image": "https://raw.githubusercontent.com/VitaliyPolyashov/classes/master/shop-data/4.jpg"
-    },
+    }
 ]
